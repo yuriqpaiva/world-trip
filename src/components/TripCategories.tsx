@@ -50,6 +50,7 @@ export function TripCategories() {
         justifyContent={{ base: "center", lg: "space-between" }}
         flex="1"
         flexWrap={{ base: "wrap", lg: "nowrap" }}
+        ml={{ sm: -10, base: 0 }}
       >
         {tripCategories.map((category, index) => {
           return (
