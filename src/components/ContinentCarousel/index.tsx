@@ -38,7 +38,7 @@ const carouselContents = [
 
 export function ContinentCarousel() {
   return (
-    <Box overflow="hidden" maxWidth={1240}>
+    <Box overflow="hidden" maxWidth={1240} width="100%">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         className="container"

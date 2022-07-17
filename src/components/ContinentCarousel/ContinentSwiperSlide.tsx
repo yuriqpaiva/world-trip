@@ -31,10 +31,10 @@ export function ContinentSwiperSlide({
         opacity: "0.5",
       }}
     >
-      <Text fontSize="5xl" color="gray.100" zIndex={2}>
+      <Text fontSize={{ base: "2xl", lg: "5xl" }} color="gray.100" zIndex={2}>
         {title}
       </Text>
-      <Text fontSize="2xl" color="gray.200" zIndex={2}>
+      <Text fontSize={{ base: "0.875rem", lg: "2xl" }} color="gray.200" zIndex={2}>
         {legend}
       </Text>
     </Flex>
