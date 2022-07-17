@@ -1,4 +1,5 @@
 import {
+  Box,
   Flex,
   HStack,
   Image,
@@ -42,7 +43,7 @@ export function ContinentMainInformation({
           <Text color="orange.400" fontSize="4xl">
             {info.cities}
           </Text>
-          <Text fontSize="2xl">
+          <Box fontSize="2xl">
             <Text mr="1" display="inline">
               cidades +100
             </Text>
@@ -56,7 +57,7 @@ export function ContinentMainInformation({
             >
               <Image src="/info.svg" display="inline" alt="Information icon" />
             </Tooltip>
-          </Text>
+          </Box>
         </Flex>
       </HStack>
     </SimpleGrid>
