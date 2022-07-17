@@ -25,7 +25,7 @@ const Home: NextPage = () => {
     >
       <Flex
         pl={{ base: "1rem", lg: 0 }}
-        maxWidth={1440}
+        maxWidth={1160}
         mx="auto"
         height="100%"
         alignItems="center"
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
           <Image src="/airplane.png" alt="Plane" marginTop="28" />
         )}
       </Flex>
-      <Flex maxWidth={1440} flexDir="column" mx="auto" alignItems="center">
+      <Flex maxWidth={1160} flexDir="column" mx="auto" alignItems="center">
         <TripCategories />
         <Divider w={90} borderWidth={1} borderColor="gray.400" />
         <Text
