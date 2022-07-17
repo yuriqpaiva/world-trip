@@ -1,4 +1,7 @@
+import { Box, Flex, HStack, SimpleGrid, Text } from "@chakra-ui/react";
 import { GetStaticPaths, GetStaticProps } from "next";
+import { ContinentBanner } from "../../components/ContinentBanner";
+import { ContinentMainInformation } from "../../components/ContinentMainInformation";
 
 type ContinentData = {
   id: number;
@@ -10,6 +13,9 @@ type ContinentData = {
     cities: number;
   };
   slug: string;
+  banners: {
+    main: string;
+  };
 };
 
 interface ContinentProps {
@@ -17,7 +23,22 @@ interface ContinentProps {
 }
 
 export default function Continent({ continent }: ContinentProps) {
-  return <h1>Continent</h1>;
+  console.log(continent);
+
+  return (
+    <>
+      <ContinentBanner
+        name={continent.name}
+        bannerUrl={continent.banners.main}
+      />
+      <Box maxW={1440} mx="auto">
+        <ContinentMainInformation
+          info={continent.info}
+          description={continent.description}
+        />
+      </Box>
+    </>
+  );
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -43,11 +64,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     `http://localhost:3333/continents/?slug=${continent}`
   );
 
-  const data: ContinentData = await response.json();
+  const data: ContinentData[] = await response.json();
 
   return {
     props: {
-      continent: data,
+      continent: data[0],
     },
   };
 };

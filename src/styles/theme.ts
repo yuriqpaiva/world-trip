@@ -14,6 +14,9 @@ const customTheme = {
     body: "Poppins",
   },
   colors: {
+    orange: {
+      "400": "#FFBA08",
+    },
     gray: {
       "100": "#F5F8FA",
       "200": "#DADADA",

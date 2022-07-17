@@ -9,7 +9,10 @@
         "languages": 60,
         "cities": 27
       },
-      "slug": "europe"
+      "slug": "europe",
+      "banners": {
+        "main": "/continents/europe.jpg"
+      }
     }
   ]
 }
