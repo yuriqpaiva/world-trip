@@ -1,5 +1,4 @@
 import { Button, Flex, Image } from "@chakra-ui/react";
-import Link from "next/link";
 import { useRouter } from "next/router";
 
 export function Header() {

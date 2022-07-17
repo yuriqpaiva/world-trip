@@ -16,6 +16,7 @@ const customTheme = {
   colors: {
     gray: {
       "100": "#F5F8FA",
+      "200": "#DADADA",
       "400": "#47585B",
     },
   },
