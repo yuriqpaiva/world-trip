@@ -1,0 +1,20 @@
+.container {
+  height: 450px;
+  margin-bottom: 2.5rem;
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #ffba08;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #ffba08;
+  }
+
+  .swiper-pagination-bullet,
+  .swiper-pagination-bullet-active {
+    padding: 2px;
+    height: 16px;
+    width: 16px;
+  }
+}

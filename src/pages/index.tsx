@@ -1,5 +1,7 @@
-import { Box, Flex, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Stack, Text, Divider } from "@chakra-ui/react";
 import type { NextPage } from "next";
+import { ContinentCarousel } from "../components/ContinentCarousel";
+import { TripCategories } from "../components/TripCategories";
 
 const Home: NextPage = () => {
   return (
@@ -29,6 +31,14 @@ const Home: NextPage = () => {
           </Text>
         </Stack>
         <Image src="/airplane.png" alt="Plane" marginTop="28" />
+      </Flex>
+      <Flex maxWidth={1440} flexDir="column" mx="auto" alignItems="center">
+        <TripCategories />
+        <Divider w={90} borderWidth={1} borderColor="gray.400" />
+        <Text textAlign="center" my="12" fontSize="4xl" fontWeight="medium">
+          Vamos nessa? <br /> Então escolha seu continente
+        </Text>
+        <ContinentCarousel />
       </Flex>
     </Box>
   );
