@@ -1,5 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import { GetStaticPaths, GetStaticProps } from "next";
+import Head from "next/head";
 import { CitiesList } from "../../components/CitiesList";
 import { ContinentBanner } from "../../components/ContinentBanner";
 import { ContinentMainInformation } from "../../components/ContinentMainInformation";
@@ -32,6 +33,9 @@ interface ContinentProps {
 export default function Continent({ continent }: ContinentProps) {
   return (
     <>
+      <Head>
+        <title>{`${continent.name} | World Trip`}</title>
+      </Head>
       <ContinentBanner
         name={continent.name}
         bannerUrl={continent.banners.main}
