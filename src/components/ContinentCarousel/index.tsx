@@ -60,6 +60,7 @@ export function ContinentCarousel() {
               title={content.title}
               legend={content.legend}
               imgUrl={content.imgUrl}
+              slug={content.slug}
             />
           </SwiperSlide>
         ))}

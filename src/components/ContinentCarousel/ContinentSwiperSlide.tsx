@@ -6,17 +6,19 @@ interface ContinentSwiperSlideProps {
   title: string;
   legend: string;
   imgUrl: string;
+  slug: string;
 }
 
 export function ContinentSwiperSlide({
   title,
   legend,
   imgUrl,
+  slug,
 }: ContinentSwiperSlideProps) {
   return (
-    <Link href={''} passHref>
+    <Link href={`/continent/${slug}`} passHref>
       <Flex
-      as="a"
+        as="a"
         h="100%"
         flexDirection="column"
         justify="center"
