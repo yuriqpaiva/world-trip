@@ -7,7 +7,7 @@ export function Header() {
   return (
     <Flex
       as="header"
-      maxWidth={1440}
+      maxWidth={1160}
       mx="auto"
       py={{ base: "0", lg: "6" }}
       pos="relative"

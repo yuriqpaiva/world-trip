@@ -1,4 +1,11 @@
-import { Flex, HStack, SimpleGrid, Text } from "@chakra-ui/react";
+import {
+  Flex,
+  HStack,
+  Image,
+  SimpleGrid,
+  Text,
+  Tooltip,
+} from "@chakra-ui/react";
 
 interface ContinentMainInformationProps {
   description: string;
@@ -14,11 +21,11 @@ export function ContinentMainInformation({
   info,
 }: ContinentMainInformationProps) {
   return (
-    <SimpleGrid minChildWidth={600} my="20">
+    <SimpleGrid columns={2} my="20" spacing="16">
       <Text fontSize="2xl" maxWidth={600}>
         {description}
       </Text>
-      <HStack display="flex" spacing="28">
+      <HStack display="flex" spacing="20">
         <Flex flexDir="column" align="center" fontWeight="semibold">
           <Text color="orange.400" fontSize="4xl">
             {info.countries}
@@ -35,7 +42,21 @@ export function ContinentMainInformation({
           <Text color="orange.400" fontSize="4xl">
             {info.cities}
           </Text>
-          <Text fontSize="2xl">cidades +100</Text>
+          <Text fontSize="2xl">
+            <Text mr="1" display="inline">
+              cidades +100
+            </Text>
+            <Tooltip
+              label="Mais de cem cidades para serem visitadas"
+              bg="gray.600"
+              fontWeight="medium"
+              borderRadius={8}
+              hasArrow
+              p="2"
+            >
+              <Image src="/info.svg" display="inline" alt="Information icon" />
+            </Tooltip>
+          </Text>
         </Flex>
       </HStack>
     </SimpleGrid>

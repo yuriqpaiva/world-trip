@@ -29,7 +29,7 @@ export function ContinentBanner({ name, bannerUrl }: ContinentBannerProps) {
         marginLeft={140}
         marginBottom={59}
         fontWeight="semibold"
-        width={1440}
+        width={1160}
         mx="auto"
         zIndex={1000}
       >

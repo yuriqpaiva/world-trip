@@ -1,5 +1,6 @@
-import { Box, Flex, HStack, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { GetStaticPaths, GetStaticProps } from "next";
+import { CitiesList } from "../../components/CitiesList";
 import { ContinentBanner } from "../../components/ContinentBanner";
 import { ContinentMainInformation } from "../../components/ContinentMainInformation";
 
@@ -16,6 +17,12 @@ type ContinentData = {
   banners: {
     main: string;
   };
+  cities: {
+    city: string;
+    country: string;
+    flagImg: string;
+    cityImg: string;
+  }[];
 };
 
 interface ContinentProps {
@@ -23,19 +30,18 @@ interface ContinentProps {
 }
 
 export default function Continent({ continent }: ContinentProps) {
-  console.log(continent);
-
   return (
     <>
       <ContinentBanner
         name={continent.name}
         bannerUrl={continent.banners.main}
       />
-      <Box maxW={1440} mx="auto">
+      <Box maxW={1160} mx="auto">
         <ContinentMainInformation
           info={continent.info}
           description={continent.description}
         />
+        <CitiesList cities={continent.cities} />
       </Box>
     </>
   );

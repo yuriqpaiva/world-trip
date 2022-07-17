@@ -12,7 +12,39 @@
       "slug": "europe",
       "banners": {
         "main": "/continents/europe.jpg"
-      }
+      },
+      "cities": [
+        {
+          "city": "Londres",
+          "country": "Reino Unido",
+          "flagImg": "/flags/1.jpg",
+          "cityImg": "/cities/1.jpg"
+        },
+        {
+          "city": "Paris",
+          "country": "França",
+          "flagImg": "/flags/2.jpg",
+          "cityImg": "/cities/2.jpg"
+        },
+        {
+          "city": "Roma",
+          "country": "Itália",
+          "flagImg": "/flags/3.jpg",
+          "cityImg": "/cities/3.jpg"
+        },
+        {
+          "city": "Praga",
+          "country": "República Tcheca",
+          "flagImg": "/flags/4.jpg",
+          "cityImg": "/cities/4.jpg"
+        },
+        {
+          "city": "Amsterdã",
+          "country": "Holanda",
+          "flagImg": "/flags/5.jpg",
+          "cityImg": "/cities/5.jpg"
+        }
+      ]
     }
   ]
 }
