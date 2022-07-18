@@ -42,7 +42,7 @@ export function TripCategories() {
       mt={{ base: "9", lg: "28" }}
       mb={{ base: 5, lg: "20" }}
       w="100%"
-      px={{ base: 0, md: "12", lg: 0 }}
+      px={{ base: 0, md: "12", lg: "12" }}
     >
       <UnorderedList
         listStyleType="none"
