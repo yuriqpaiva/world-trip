@@ -5,8 +5,8 @@
 </div>
 
 ## 💡 Introduction
-
-See information about each continent you are traveling to
+- See information about each continent you are traveling to
+- Select a continent from home page carousel
 
 <br/>
 
