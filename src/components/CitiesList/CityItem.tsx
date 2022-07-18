@@ -16,7 +16,7 @@ export function CityItem({ country, city, cityImg, flagImg }: CityItemProps) {
       borderColor="orange.400"
       borderRadius={4}
     >
-      <Image src={cityImg} alt="" w={256} borderTopRadius={4} />
+      <Image src={cityImg} alt="" w={256} borderTopRadius={4} h={173}/>
       <Flex justify="space-between" align="center" px="6" h={106}>
         <Flex flexDir="column">
           <Text fontSize="1.25rem" fontWeight="semibold" color="gray.400">

@@ -20,6 +20,8 @@ export function ContinentBanner({ name, bannerUrl }: ContinentBannerProps) {
         backgroundImage: `url('${bannerUrl}')`,
         backgroundPosition: "center",
         opacity: "0.4",
+        bgSize: "cover",
+        bgRepeat: "no-repeat",
       }}
       position="relative"
       alignItems="flex-end"
