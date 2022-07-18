@@ -18,31 +18,207 @@
           "city": "Londres",
           "country": "Reino Unido",
           "flagImg": "/flags/1.jpg",
-          "cityImg": "/cities/1.jpg"
+          "cityImg": "https://images.unsplash.com/photo-1620589124467-1c37fd365394?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1706&q=80"
         },
         {
           "city": "Paris",
           "country": "França",
           "flagImg": "/flags/2.jpg",
-          "cityImg": "/cities/2.jpg"
+          "cityImg": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
         },
         {
           "city": "Roma",
           "country": "Itália",
           "flagImg": "/flags/3.jpg",
-          "cityImg": "/cities/3.jpg"
+          "cityImg": "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1734&q=80"
         },
         {
           "city": "Praga",
           "country": "República Tcheca",
           "flagImg": "/flags/4.jpg",
-          "cityImg": "/cities/4.jpg"
+          "cityImg": "https://images.unsplash.com/photo-1549987506-35e5c52b0415?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"
         },
         {
           "city": "Amsterdã",
           "country": "Holanda",
           "flagImg": "/flags/5.jpg",
-          "cityImg": "/cities/5.jpg"
+          "cityImg": "https://images.unsplash.com/photo-1562170024-fc6d5fadecdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "América do Sul",
+      "description": "A América do Sul é um subcontinente pertencente à América. A maior parte do seu território se encontra no hemisfério sul, além de estar na porção oeste do planeta. É banhada pelos oceanos Pacífico, a oeste, e Atlântico, a leste. Possui 12 países e um território ultramarino, a Guiana Francesa",
+      "info": {
+        "countries": 60,
+        "languages": 12,
+        "cities": 30
+      },
+      "slug": "south_america",
+      "banners": {
+        "main": "https://images.unsplash.com/photo-1580619305218-8423a7ef79b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"
+      },
+      "cities": [
+        {
+          "city": "Cartagena",
+          "country": "Colômbia",
+          "flagImg": "/flags/1.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1632253838523-b2a2126d073e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1869&q=80"
+        },
+        {
+          "city": "Los Roques",
+          "country": "Venezuela",
+          "flagImg": "/flags/2.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1637407412556-9a29c2d6793e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "city": "Salar de Uyuni",
+          "country": "Bolívia",
+          "flagImg": "/flags/3.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1487947366323-374a622aeccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "city": "Machu Picchu",
+          "country": "Peru",
+          "flagImg": "/flags/4.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1589087575290-519f528dfe5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+        },
+        {
+          "city": "Ushuaia",
+          "country": "Argentina",
+          "flagImg": "/flags/5.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1615656543085-130a54570311?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "América do Norte",
+      "description": "A América do Norte é um subcontinente do continente americano, também formado pela América Central e América do Sul. A região limita-se ao leste com o oceano Atlântico, a oeste com o oceano Pacífico, ao norte com o oceano Ártico e ao sul com a América Central e o Caribe.",
+      "info": {
+        "countries": 50,
+        "languages": 10,
+        "cities": 32
+      },
+      "slug": "north_america",
+      "banners": {
+        "main": "https://images.unsplash.com/photo-1603015245012-68988952fc73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+      },
+      "cities": [
+        {
+          "city": "Miami",
+          "country": "Estados Unidos",
+          "flagImg": "/flags/1.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1560&q=80"
+        },
+        {
+          "city": "Las Vegas",
+          "country": "Estados Unidos",
+          "flagImg": "/flags/2.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"
+        },
+        {
+          "city": "Nova York",
+          "country": "Estados Unidos",
+          "flagImg": "/flags/3.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "Estados Unidos",
+          "flagImg": "/flags/4.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "city": "Chicago",
+          "country": "Estados Unidos",
+          "flagImg": "/flags/5.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1844&q=80"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "África",
+      "description": "A África é um continente localizado na zona intertropical, com maior parte do seu território no Hemisfério Sul. Possui mais de um bilhão de habitantes e 30 milhões de km2 de extensão, sendo, por isso, considerado um dos maiores e mais populosos continentes do mundo.",
+      "info": {
+        "countries": 70,
+        "languages": 12,
+        "cities": 50
+      },
+      "slug": "africa",
+      "banners": {
+        "main": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+      },
+      "cities": [
+        {
+          "city": "Cape Town",
+          "country": "África do Sul",
+          "flagImg": "/flags/1.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+        },
+        {
+          "city": "Durban",
+          "country": "África do Sul",
+          "flagImg": "/flags/2.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1550761717-d03b44d9cb33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ásia",
+      "description": "As Regiões da Ásia compreendem uma área de mais de 43 milhões de km2, o que forma o maior continente do mundo. Além disso, os países asiáticos abrigam uma população de mais de 4 bilhões de habitantes. Por isso há uma grande diversidade tanto nas paisagens quanto na população do continente asiático.",
+      "info": {
+        "countries": 80,
+        "languages": 22,
+        "cities": 82
+      },
+      "slug": "asia",
+      "banners": {
+        "main": "https://images.unsplash.com/photo-1535139262971-c51845709a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+      },
+      "cities": [
+        {
+          "city": "Bangkok",
+          "country": "Tailândia",
+          "flagImg": "/flags/1.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+        },
+        {
+          "city": "Tóquio",
+          "country": "Japão",
+          "flagImg": "/flags/2.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1531219572328-a0171b4448a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Oceania",
+      "description": "A Oceania é o menor continente da Terra, sendo em maior parte composta pela Austrália, principal e mais desenvolvido país da região. A Oceania é um continente localizado a sudeste da Ásia, compreendendo um conjunto de ilhas somado à Austrália, essa última considerada como uma massa continental chamada de “Australásia”.",
+      "info": {
+        "countries": 31,
+        "languages": 20,
+        "cities": 89
+      },
+      "slug": "oceania",
+      "banners": {
+        "main": "https://images.unsplash.com/photo-1588001400947-6385aef4ab0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+      },
+      "cities": [
+        {
+          "city": "Sidney",
+          "country": "Austrália",
+          "flagImg": "/flags/1.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1524820197278-540916411e20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1790&q=80"
+        },
+        {
+          "city": "Waikato",
+          "country": "Nova zelândia",
+          "flagImg": "/flags/2.jpg",
+          "cityImg": "https://images.unsplash.com/photo-1533501677244-c0674273586e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
         }
       ]
     }
