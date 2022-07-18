@@ -5,7 +5,24 @@
 </div>
 
 ## 💡 Introduction
- See information about each continent you are traveling to
+
+See information about each continent you are traveling to
+
+<br/>
+
+## 🚀 How to Run it?
+
+From project's root file:
+
+```sh
+$ yarn install
+$ yarn dev
+```
+
+In another console, run json-server:
+```sh
+$ yarn server
+```
 
 <br/>
 
