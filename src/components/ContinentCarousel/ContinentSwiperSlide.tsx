@@ -32,8 +32,10 @@ export function ContinentSwiperSlide({
           width: "100%",
           height: "100%",
           backgroundImage: `url('${imgUrl}')`,
+          backgroundRepeat: "no-repeat",
+          bgSize:"cover",
           backgroundPosition: "center",
-          opacity: "0.5",
+          opacity: "0.4",
         }}
       >
         <Text fontSize={{ base: "2xl", lg: "5xl" }} color="gray.100" zIndex={2}>
