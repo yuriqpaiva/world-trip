@@ -40,7 +40,7 @@ export default function Continent({ continent }: ContinentProps) {
         name={continent.name}
         bannerUrl={continent.banners.main}
       />
-      <Box maxW={1160} mx="auto">
+      <Box maxW={1160} mx="auto" px={{ base: "4", lg: "6" }}>
         <ContinentMainInformation
           info={continent.info}
           description={continent.description}
