@@ -81,7 +81,7 @@ export function ContinentMainInformation({
               cidades +100
             </Text>
             <Tooltip
-              label="Mais de cem cidades para serem visitadas"
+              label="Cidades do continente que estão entre as 100 mais visitadas do mundo"
               bg="gray.600"
               fontWeight="medium"
               borderRadius={8}
