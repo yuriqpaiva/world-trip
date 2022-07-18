@@ -22,6 +22,7 @@ export function Header() {
           bottom="0"
           mt="auto"
           mb="auto"
+          mx="8"
         >
           <Image src="/back.svg" alt="" />
         </Button>
